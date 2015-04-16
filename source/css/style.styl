@@ -20,12 +20,16 @@ body
   background: color-background
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
-  
+
 a
   color: color-link
   text-decoration: none
   &:visited
     color: color-link
+
+// Update tab size here and in script.js
+.code
+  tab-size: 4
 
 .outer
   clearfix()
@@ -34,7 +38,7 @@ a
   padding: 0 gutter-width
   @media mq-mini
     padding: 0
-    
+
 
 .inner
   column(columns)
@@ -47,7 +51,7 @@ a
 
 .clear
   clear: both
-  
+
 .logo
   background-image: url(logo-url)
   background-size: cover

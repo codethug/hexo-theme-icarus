@@ -1,6 +1,19 @@
 (function($){
   var toTop = $('#toTop').offset().top - $(window).height() + 20;
 
+  // Set tabs on code blocks if browser doesn't support tabSize
+  // Set tabsize here and in style.styl
+  var tabSize = "   ";
+  e = document.createElement('div');
+  e.className = "code";
+  if(e.style.tabSize !== '' && e.style.MozTabSize !== '' && e.style.oTabSize !== '')
+  {
+    console.log(e.style);
+    $('.code').each(function() {
+      this.innerHTML = this.innerHTML.replace(/\t/g, tabSize);
+    });
+  }
+
   // Share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');
