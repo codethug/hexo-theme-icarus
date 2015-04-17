@@ -9,7 +9,7 @@ nav:
   next: 'Next'
   prev: 'Prev'
 widget:
-  recents: 'recents'
+  recents: 'recent posts'
   archives: 'archives'
   categories: 'categories'
   links: 'links'
