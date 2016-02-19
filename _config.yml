@@ -1,0 +1,35 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- archive
+thumbnail: false
+
+# Contacts
+contacts:
+  github: http://github.com/codethug
+  twitter: http://twitter.com/codethug
+  linkedin: http://linkedin.com/in/larsontim
+  stack-overflow: http://stackoverflow.com/users/133852/codethug
+  rss: http://feeds.feedburner.com/CodeThug
+
+# Links
+links:
+  Hexo: http://hexo.io
+
+# Miscellaneous
+google_analytics: UA-61949305-1
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
